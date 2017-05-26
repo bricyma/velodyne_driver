@@ -205,7 +205,6 @@ bool VelodyneDriver::poll(void)
   // msg.data = count++%128;
   msg.data = 1;
   t_output_.publish(msg);
-  std::cout<<"trigger"<<std::endl; 
   // publish message using time of last 5th packet read
   ROS_DEBUG("Publishing a full Velodyne scan.");
   scan->header.stamp = scan->packets[i - 1].stamp;
