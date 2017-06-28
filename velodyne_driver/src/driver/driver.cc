@@ -75,7 +75,7 @@ VelodyneDriver::VelodyneDriver(ros::NodeHandle node,
   std::cout << "frequency: " << frequency << std::endl;
   // default number of packets for each scan is a single revolution
   // (fractions rounded up)
-  config_.npackets = (int) ceil(packet_rate / frequency);
+  config_.npackets = (int) ceil(packet_rate / frequency) + 50; //temporal test
   private_nh.getParam("npackets", config_.npackets);
   ROS_INFO_STREAM("publishing " << config_.npackets << " packets per scan");
 
@@ -143,17 +143,6 @@ bool VelodyneDriver::poll(void)
   // Since the velodyne delivers data at a very high rate, keep
   // reading and publishing scans as fast as possible.
 
-  // for (int i = 0; i < config_.npackets; ++i)
-  //   {
-  //     while (true){
-  //     // keep reading until full packet received
-  //       int rc = input_->getPacket(&scan->packets[i], config_.time_offset);
-  //       if (rc == 0) break;       // got a full packet?
-  //       if (rc < 0) return false; // end of file reached?
-  //     }
-  //   }
-
- 
   //velodyne trigger at 0 degree
   //author: Zhibei Ma
   int i = 0;
@@ -162,15 +151,6 @@ bool VelodyneDriver::poll(void)
   double before = 1000;
   int pkt_year, pkt_month, pkt_date, pkt_hours, pkt_minutes, pkt_seconds, pkt_gps_status;
   double rotation_gate = 270;
-
-  //for test;
-  // pkt_year = 2017;
-  // pkt_month = 3;
-  // pkt_date = 6;
-  // pkt_hours = 2;
-  // pkt_minutes = 30;
-  // pkt_seconds = 10;
-
 
   while (i < config_.npackets)
   {
@@ -186,28 +166,23 @@ bool VelodyneDriver::poll(void)
       if (rc == 0) break;       // got a full packet?
       if (rc < 0) return false; // end of file reached?
     }
-    if (i > config_.npackets/2 && rotation + 360.0/config_.npackets >rotation_gate && rotation + 360.0/config_.npackets < rotation_gate+2)
+    ROS_INFO("%d %f %f ", i, rotation, rotation - before);
+
+    // trigger
+    if (rotation >= 0 && rotation <= 2.07 && i > 1){
+      std_msgs::Int8 msg;
+      msg.data = 1;
+      t_output_.publish(msg);
+    }
+
+    // store velodyne packets
+    if (rotation >= rotation_gate && rotation <= rotation_gate+2.07 && i > 1)
        break;
     // doesn't need to keep frequency at 20hz
-//    if (i < config_.npackets/2 && rotation  > rotation_gate - 60 && rotation < rotation_gate){
-//       i = 0;
-//       continue;
-//    }
-
-    ROS_INFO("%d %f %f ", i, rotation, rotation - before);
     i++;
   }
-  //std::cout << "count: " << i << std::endl;
-  //std::cout << "rotation diff: " <<rotation << " " << before <<" " <<  rotation - before << std::endl;                   
-  // trigger when msg.data=1
-  std_msgs::Int8 msg;
-  // msg.data = count++%128;
-  msg.data = 1;
-  t_output_.publish(msg);
   ROS_DEBUG("Publishing a full Velodyne scan.");
-  // publish message using time of first packet read
-  // scan->header.stamp = scan->packets[i - 1].stamp;
-  scan->header.stamp = scan->packets[0].stamp;
+  scan->header.stamp = scan->packets[43].stamp;  //174*90/360=43
   scan->header.frame_id = config_.frame_id;
 
   // notify diagnostics that a message has been published, updating
