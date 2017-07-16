@@ -15,6 +15,7 @@
   <arg name="read_once" default="false" />
   <arg name="repeat_delay" default="0.0" />
   <arg name="rpm" default="1200.0" />
+  <arg name="publish_cloud" default="false"/>
 
   <!-- start nodelet manager and driver nodelets -->
   <include file="$(find velodyne_driver)/launch/nodelet_manager.launch">
@@ -30,16 +31,17 @@
     <arg name="rpm" value="$(arg rpm)"/>
   </include>
 
+  
   <!-- start cloud nodelet -->
-  <include file="$(find velodyne_pointcloud)/launch/cloud_nodelet.launch">
-    <arg name="calibration" value="$(arg calibration)"/>
-    <arg name="manager" value="$(arg manager)" />
-    <arg name="max_range" value="$(arg max_range)"/>
-    <arg name="min_range" value="$(arg min_range)"/>
-  </include>
+  <group if="$(arg publish_cloud)">
+    <include file="$(find velodyne_pointcloud)/launch/cloud_nodelet.launch">
+      <arg name="calibration" value="$(arg calibration)"/>
+      <arg name="manager" value="$(arg manager)" />
+      <arg name="max_range" value="$(arg max_range)"/>
+      <arg name="min_range" value="$(arg min_range)"/>
+    </include>
+  </group>
 
-  <!-- <node pkg="tf" type="static_transform_publisher" name="velodyne_tf" args="0.9 0 1.8 0 0 0 base_link velodyne 100" /> -->
-  <node pkg="tf" type="static_transform_publisher" name="velodyne_tf" args="0.94 0 2.05 0 0 0 base_link velodyne 100" />
-
+  <node pkg="tf" type="static_transform_publisher" name="velodyne_tf" args="0.94 0 1.64 0 0 0 base_link velodyne 100" />
 
 </launch>

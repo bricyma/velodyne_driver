@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../sensor_script/gps/compare.py" line="91" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1934496c-7f7c-4a69-b436-24bb57d7b49d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/gps_points_tester/gps_points_generator/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/gps_points_tester/gps_points_generator/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/gps_points_tester/gps_points_generator/src/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/gps_points_tester/gps_points_generator/src/generator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/gps_points_tester/gps_points_publisher/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/gps_points_tester/gps_points_publisher/cfg/Speed.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/gps_points_tester/gps_points_publisher/launch/publish_with_view.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/gps_points_tester/gps_points_publisher/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/gps_points_tester/gps_points_publisher/src/publisher.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/octopus-planner" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/surroundings_detection/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/surroundings_detection/launch/surroundings_detection.launch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/surroundings_detection/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/surroundings_detection/src/detection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/surroundings_detection/tests/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/surroundings_detection/tests/expected_output.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/surroundings_detection/tests/message_generator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/surroundings_detection/tests/object_list_ecu_et.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/surroundings_detection/tests/surroundings_detection.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/planning/motion_planning/surroundings_detection/tests/test_surroundings_detection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/sensors/cam_axes/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/sensors/cam_axes/cfg/CamAlign.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/sensors/cam_axes/package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/sensors/cam_axes/src/camAxesNode.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/sensors/cam_axes/src/ecc.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../octopus/ros/src/sensors/cam_axes/src/ecc.h" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../octopus/ros/src/octopus-dependency" afterPath="$PROJECT_DIR$/../octopus/ros/src/octopus-dependency" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../octopus/ros/src/octopus_launcher/octopus_allnodes.launch" afterPath="$PROJECT_DIR$/../octopus/ros/src/octopus_launcher/octopus_allnodes.launch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/bridge.py" afterPath="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/bridge.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/mapping.py" afterPath="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/mapping.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/velodyne/velodyne_driver/src/driver/driver.cc" afterPath="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/velodyne/velodyne_driver/src/driver/driver.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/velodyne/velodyne_driver/src/driver/driver.h" afterPath="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/velodyne/velodyne_driver/src/driver/driver.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/velodyne/velodyne_pointcloud/launch/64e_points.launch" afterPath="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/velodyne/velodyne_pointcloud/launch/64e_points.launch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sensor_script/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../sensor_script/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sensor_script/map/local_map.py" afterPath="$PROJECT_DIR$/../sensor_script/map/local_map.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sensor_script/system_check/position_type.py" afterPath="$PROJECT_DIR$/../sensor_script/system_check/position_type.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../sensor_script/velodyne/parse_info.py" afterPath="$PROJECT_DIR$/../sensor_script/velodyne/parse_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/velodyne_driver.iml" afterPath="$PROJECT_DIR$/.idea/velodyne_driver.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/velodyne_driver/src/driver/driver.cc" afterPath="$PROJECT_DIR$/velodyne_driver/src/driver/driver.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/velodyne_pointcloud/launch/64e_points.launch" afterPath="$PROJECT_DIR$/velodyne_pointcloud/launch/64e_points.launch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/velodyne_pointcloud/launch/cloud_nodelet.launch" afterPath="$PROJECT_DIR$/velodyne_pointcloud/launch/cloud_nodelet.launch" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +60,104 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="driver.cc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/velodyne_driver/src/driver/driver.cc">
+      <file leaf-file-name="port.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/port.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1113">
-              <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state relative-caret-position="2478">
+              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="octopus_allnodes.launch" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../octopus/ros/src/octopus_launcher/octopus_allnodes.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2121">
+              <caret line="101" column="18" lean-forward="false" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bridge.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/bridge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2649">
+              <caret line="206" column="25" lean-forward="true" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
+              <folding>
+                <element signature="e#1833#1845#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publisher.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/publisher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1407">
+              <caret line="76" column="15" lean-forward="false" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driver" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/scripts/driver">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="change_mode.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/change_mode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rospy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/rospy">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example.launch" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/launch/example.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/a.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="b.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/b.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -27,27 +165,60 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>npackets</find>
+      <find>config_.npackets</find>
+      <find />
+      <find>dataport</find>
+      <find>port</find>
+      <find>configure_receiver</find>
+      <find>init</find>
+      <find>init_node</find>
+      <find>sock</find>
+      <find>create_sock</find>
+      <find>change_mode(sock)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../octopus" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/velodyne_driver/src/driver/driver.cc" />
+        <option value="$PROJECT_DIR$/velodyne_pointcloud/launch/64e_points.launch" />
+        <option value="$PROJECT_DIR$/../octopus/ros/src/octopus-dependency/src/msgs/novatel_msgs/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/mapping.py" />
+        <option value="$PROJECT_DIR$/velodyne_pointcloud/launch/cloud_nodelet.launch" />
+        <option value="$PROJECT_DIR$/../sensor_script/velodyne/parse_info.py" />
+        <option value="$PROJECT_DIR$/../sensor_script/system_check/position_type.py" />
+        <option value="$PROJECT_DIR$/../sensor_script/map/local_map.py" />
+        <option value="$PROJECT_DIR$/../sensor_script/map/compare.py" />
+        <option value="$PROJECT_DIR$/../sensor_script/gps/compare.py" />
+        <option value="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/handlers.py" />
+        <option value="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/b.py" />
+        <option value="$PROJECT_DIR$/../octopus/ros/src/octopus_launcher/octopus_allnodes.launch" />
+        <option value="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/change_mode.py" />
+        <option value="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/a.py" />
+        <option value="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/bridge.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2851" />
-    <option name="y" value="-4" />
-    <option name="width" value="2495" />
-    <option name="height" value="1444" />
+    <option name="x" value="2850" />
+    <option name="y" value="-11" />
+    <option name="width" value="2497" />
+    <option name="height" value="1452" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -64,6 +235,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -72,6 +244,168 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sensor_script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensor_script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensor_script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system_check" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensor_script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensor_script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="velodyne_driver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -82,21 +416,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemId" value="octopus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemId" value="ros" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="velodyne_driver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemId" value="sensors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -114,7 +454,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -130,13 +490,256 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="novatel_span_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="novatel_span_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="novatel_span_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="novatel_span_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="novatel_span_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="novatel_span_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="novatel_span_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="novatel_span_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="novatel_span_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="novatel_span_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="launch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus_launcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="velodyne_driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="octopus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/by-wire" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sensor_script" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,7 +753,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.compare">
+    <configuration default="false" name="compare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../sensor_script/gps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="sensor_script" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../sensor_script/gps/compare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,6 +837,29 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="velodyne_driver" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.compare" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.compare" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -231,7 +875,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2851" y="-4" width="2495" height="1444" extended-state="6" />
+    <frame x="2850" y="-11" width="2497" height="1452" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -242,7 +886,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997017" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -258,14 +902,90 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/velodyne_driver/src/driver/driver.cc">
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/port.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/octopus_launcher/octopus_allnodes.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2121">
+          <caret line="101" column="18" lean-forward="false" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/bridge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2982">
+          <caret line="156" column="4" lean-forward="false" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="4" />
+          <folding>
+            <element signature="e#1833#1845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/publisher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1407">
+          <caret line="76" column="15" lean-forward="false" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/scripts/driver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/change_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/rospy">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/launch/example.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -274,15 +994,281 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/velodyne_driver/src/driver/driver.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1113">
-          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/velodyne_driver/src/driver/driver.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/velodyne_pointcloud/launch/64e_points.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/diagnostics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/wheel_velocity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/octopus-dependency/src/msgs/novatel_msgs/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/octopus-dependency/src/msgs/novatel_msgs/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/mapping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="71" lean-forward="false" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/velodyne_driver/src/driver/driver.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1132">
+          <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/velodyne_driver/launch/nodelet_manager.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/velodyne_pointcloud/launch/cloud_nodelet.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sensor_script/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sensor_script/velodyne/parse_velodyne.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sensor_script/velodyne/parse_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sensor_script/system_check/position_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="56" column="99" lean-forward="true" selection-start-line="56" selection-start-column="99" selection-end-line="56" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sensor_script/map/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sensor_script/map/compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sensor_script/map/local_map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sensor_script/gps/compare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+          <folding>
+            <element signature="e#26#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/velodyne/velodyne_driver/src/driver/driver.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="193" column="29" lean-forward="true" selection-start-line="193" selection-start-column="29" selection-end-line="193" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/translator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/port.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/launch/example.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/octopus_launcher/octopus_allnodes.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2121">
+          <caret line="101" column="18" lean-forward="false" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/rospy">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/change_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/publisher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1407">
+          <caret line="76" column="15" lean-forward="false" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/scripts/driver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../octopus/ros/src/sensors/drivers/novatel_span_driver/novatel_span_driver/src/novatel_span_driver/bridge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2649">
+          <caret line="206" column="25" lean-forward="true" selection-start-line="206" selection-start-column="25" selection-end-line="206" selection-end-column="25" />
+          <folding>
+            <element signature="e#1833#1845#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

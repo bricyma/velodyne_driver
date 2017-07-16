@@ -44,9 +44,16 @@ VelodyneDriver::VelodyneDriver(ros::NodeHandle node,
   if ((config_.model == "64E_S2") || 
       (config_.model == "64E_S2.1"))    // generates 1333312 points per second
     {                                   // 1 packet holds 384 points
-      packet_rate = 3472.17;            // 1333312 / 384
+//      packet_rate = 3472.17;            // 1333312 / 384
+      packet_rate = 5787;
       model_full_name = std::string("HDL-") + config_.model;
     }
+//    TODO
+//  else if (config_.model == "64E_S3")
+//    {
+//      packet_rate = 5787;
+//      model_full_name = std::string("HDL-") + config_.model;
+//    }
   else if (config_.model == "64E")
     {
       packet_rate = 2600.0;
@@ -75,7 +82,7 @@ VelodyneDriver::VelodyneDriver(ros::NodeHandle node,
   std::cout << "frequency: " << frequency << std::endl;
   // default number of packets for each scan is a single revolution
   // (fractions rounded up)
-  config_.npackets = (int) ceil(packet_rate / frequency) + 50; //temporal test
+  config_.npackets = (int) ceil(packet_rate / frequency);
   private_nh.getParam("npackets", config_.npackets);
   ROS_INFO_STREAM("publishing " << config_.npackets << " packets per scan");
 
@@ -143,7 +150,7 @@ bool VelodyneDriver::poll(void)
   // Since the velodyne delivers data at a very high rate, keep
   // reading and publishing scans as fast as possible.
 
-  //velodyne trigger at 0 degree
+  //velodyne trigger at 0 degree, collect data at 270 degree
   //author: Zhibei Ma
   int i = 0;
   bool flag = false;
@@ -151,6 +158,8 @@ bool VelodyneDriver::poll(void)
   double before = 1000;
   int pkt_year, pkt_month, pkt_date, pkt_hours, pkt_minutes, pkt_seconds, pkt_gps_status;
   double rotation_gate = 270;
+  double unit_angle = 360.0/config_.npackets;
+
 
   while (i < config_.npackets)
   {
@@ -169,20 +178,20 @@ bool VelodyneDriver::poll(void)
     ROS_INFO("%d %f %f ", i, rotation, rotation - before);
 
     // trigger
-    if (rotation >= 0 && rotation <= 2.07 && i > 1){
+    if (rotation >= 0 && rotation <= unit_angle && i > 1){
       std_msgs::Int8 msg;
       msg.data = 1;
       t_output_.publish(msg);
     }
 
     // store velodyne packets
-    if (rotation >= rotation_gate && rotation <= rotation_gate+2.07 && i > 1)
+    if (rotation >= rotation_gate && rotation <= rotation_gate + unit_angle && i > 1)
        break;
     // doesn't need to keep frequency at 20hz
     i++;
   }
   ROS_DEBUG("Publishing a full Velodyne scan.");
-  scan->header.stamp = scan->packets[43].stamp;  //174*90/360=43
+  scan->header.stamp = scan->packets[72].stamp;  //174*90/360=43, 5787/20*90/360=72   
   scan->header.frame_id = config_.frame_id;
 
   // notify diagnostics that a message has been published, updating

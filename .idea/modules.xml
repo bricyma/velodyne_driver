@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../octopus/.idea/octopus.iml" filepath="$PROJECT_DIR$/../octopus/.idea/octopus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sensor_script/.idea/sensor_script.iml" filepath="$PROJECT_DIR$/../sensor_script/.idea/sensor_script.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/velodyne_driver.iml" filepath="$PROJECT_DIR$/.idea/velodyne_driver.iml" />
     </modules>
   </component>
