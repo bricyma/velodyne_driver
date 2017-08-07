@@ -196,9 +196,14 @@ bool VelodyneDriver::poll(void)
 
   // notify diagnostics that a message has been published, updating
   // its status
+  std::cout<<"stamp 1:"<<scan->header.stamp<<std::endl;
   diag_topic_->tick(scan->header.stamp);
   diagnostics_.update();
-  output_.publish(scan);
+
+  //filter 0 message
+  if (scan->header.stamp.toSec()) {
+      output_.publish(scan);
+  }
   return true;
 }
 
