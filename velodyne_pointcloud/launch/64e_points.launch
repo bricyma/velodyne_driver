@@ -16,13 +16,14 @@
   <arg name="repeat_delay" default="0.0" />
   <arg name="rpm" default="1200.0" />
   <arg name="publish_cloud" default="false"/>
+  <arg name="model" default="64E"/>
 
   <!-- start nodelet manager and driver nodelets -->
   <include file="$(find velodyne_driver)/launch/nodelet_manager.launch">
     <arg name="device_ip" value="$(arg device_ip)"/>
     <arg name="frame_id" value="$(arg frame_id)"/>
     <arg name="manager" value="$(arg manager)" />
-    <arg name="model" value="64E_S2"/>
+    <arg name="model" value="$(arg model)"/>
     <arg name="pcap" value="$(arg pcap)"/>
     <arg name="port" value="$(arg port)"/>
     <arg name="read_fast" value="$(arg read_fast)"/>
