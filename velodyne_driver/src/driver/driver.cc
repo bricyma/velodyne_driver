@@ -164,7 +164,7 @@ bool VelodyneDriver::poll(void)
   while (i < config_.npackets)
   {
     before = rotation;
-    while (true){
+    while (true) {
       // keep reading until full packet received
       int rc = input_->getPacket(&scan->packets[i], config_.time_offset);
       const raw_packet_t *raw = (const raw_packet_t *) &scan->packets[i].data[0];
@@ -178,7 +178,7 @@ bool VelodyneDriver::poll(void)
     ROS_INFO("%d %f %f ", i, rotation, rotation - before);
 
     // trigger
-    if (rotation >= 0 && rotation <= unit_angle && i > 1){
+    if (rotation >= 0 && rotation <= unit_angle && i > 1) {
       std_msgs::Int8 msg;
       msg.data = 1;
       t_output_.publish(msg);
@@ -190,15 +190,22 @@ bool VelodyneDriver::poll(void)
     // doesn't need to keep frequency at 20hz
     i++;
   }
+  
   ROS_DEBUG("Publishing a full Velodyne scan.");
-  scan->header.stamp = scan->packets[72].stamp;  //174*90/360=43, 5787/20*90/360=72   
+  scan->header.stamp = scan->packets[72].stamp;  //174*90/360=43, 5787/20 // npackets*90/360=72   
   scan->header.frame_id = config_.frame_id;
 
   // notify diagnostics that a message has been published, updating
   // its status
+  std::cout<<"stamp 1:"<<scan->header.stamp<<std::endl;
   diag_topic_->tick(scan->header.stamp);
   diagnostics_.update();
-  output_.publish(scan);
+
+  //filter 0 message
+  if (scan->header.stamp.toSec()) {
+      output_.publish(scan);
+      std::cout<<"stamp 1:"<<scan->header.stamp<<std::endl;
+  }
   return true;
 }
 
